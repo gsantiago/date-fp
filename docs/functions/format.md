@@ -2,6 +2,8 @@
 
 Returns a string representation of a date on the specified format. Returns the string 'Invalid Date' if given an invalid date.
 
+By default, it uses the English locale. In case you want to switch to a different language you can use the [formatWithLocale](./formatWithLocale.md) function and pass a custom locale object.
+
 ```js
 const date = new Date('2015-01-02 03:04:05.123');
 D.format('YYYY-MM-DD HH:mm:ss', date); // '2015-01-02 03:04:05'
