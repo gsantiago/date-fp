@@ -4,6 +4,7 @@ import get from './get'
 import equals from './equals'
 import diff from './diff'
 import isLeapYear from './isLeapYear'
+import formatWithLocale from './formatWithLocale'
 import format from './format'
 import set from './set'
 import add from './add'
@@ -25,6 +26,7 @@ module.exports = {
   clone,
   equals,
   diff,
+  formatWithLocale,
   format,
   get,
   isLeapYear,
