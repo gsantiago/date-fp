@@ -1,6 +1,6 @@
 ## formatWithLocale :: Object -> String -> Date -> String
 
-It works similar to [format](./format.md). The difference is that you can pass your own location object as first argument.
+It works similar to [format](./format.md). The difference is that you can pass your own locale object as first argument.
 
 ```js
 import locale from './locales/pt-br'
